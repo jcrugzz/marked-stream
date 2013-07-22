@@ -1,5 +1,7 @@
 # marked-stream
 
+[![build status](https://secure.travis-ci.org/jcrugzz/marked-stream.png)](http://travis-ci.org/jcrugzz/marked-stream)
+
 [![NPM](https://nodei.co/npm/marked-stream.png)](https://nodei.co/npm/marked-stream/)
 
 Simple stream that takes a file path and returns a stream of html using

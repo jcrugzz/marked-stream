@@ -4,7 +4,6 @@ var Readable = require('stream').Readable,
     fs = require('fs'),
     marked = require('marked');
 
-
 //
 // ### @function MarkedStream
 // #### @path {String} Path to file you want to read
