@@ -1,0 +1,24 @@
+{
+  "name": "marked-stream",
+  "description": "streaming interface for converting markdown to html with marked",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/jcrugzz/marked-stream.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "marked": "~0.2.9",
+    "pygmentize-bundled": "~1.1.0"
+  },
+  "devDependencies": {
+    "tape": "~1.0.2",
+    "concat-stream": "~1.0.0",
+    "tap": "~0.4.3"
+  }
+}
