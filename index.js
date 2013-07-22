@@ -54,6 +54,9 @@ MarkedStream.prototype._encode = function (options, err, text) {
   var md = marked(text, options);
 
   this.push(md, 'utf8');
+  //
+  // Remark: This is required so the stream calls the `end` event
+  //
   this.push(null);
 
 };
